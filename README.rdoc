@@ -6,9 +6,9 @@ For example, if you have a list of articles, and you want to be able to traverse
 
 == Installation
 
-You can install this as a plugin into your Rails app.
+You can install this as a plugin into your Rails 3 app.
 
-  script/plugin install git://github.com/supapuerco/scopedtraversal.git
+  rails plugin install git://github.com/supapuerco/scopedtraversal.git
 
 
 == Usage

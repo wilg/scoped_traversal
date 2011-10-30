@@ -21,22 +21,22 @@ In your model, call rank_by and pass in a column name.
 
 You can then traverse them with the following methods:
 
-	@user.next
-	@user.previous
+   @user.next
+   @user.previous
 	
 === Namespaces
 
 You can also add an optional namespace, like so:
 
   class User < ActiveRecord::Base
-	  traverse_by :score, :namespace => true
-	  traverse_by :created_at, :namespace => :oldest
+    traverse_by :score, :namespace => true
+    traverse_by :created_at, :namespace => :oldest
   end
 
 You can then traverse them with the following methods:
 
-	@user.next_score
-	@user.previous_score
-
-	@user.next_oldest
-	@user.previous_oldest
+   @user.next_score
+   @user.previous_score
+   
+   @user.next_oldest
+   @user.previous_oldest

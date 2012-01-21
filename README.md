@@ -27,8 +27,8 @@ In your model, call rank_by and pass in a column name.
 You can then traverse them with the following methods:
 
  ```ruby
- 	@user.next
- 	@user.previous
+@user.next
+@user.previous
  ```
  
 ### Namespaces

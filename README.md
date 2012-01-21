@@ -37,8 +37,8 @@ You can also add an optional namespace, like so:
 
  ```ruby
 class User < ActiveRecord::Base
-	traverse_by :score, :namespace => true
-	traverse_by :created_at, :namespace => :oldest
+	traverse_by :score, namespace: true
+	traverse_by :created_at, namespace: :oldest
 end
  ```
 

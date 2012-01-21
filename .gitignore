@@ -1,3 +1,7 @@
 .DS_Store
-.bundle
 .tm_properties
+*.swp
+**/*.swp
+*.gem
+Gemfile.lock
+.bundle
